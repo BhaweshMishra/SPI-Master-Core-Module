@@ -24,7 +24,7 @@ This module generates the clock signal for SPI communication.
 
     -It receives inputs wb_clk, reset, and divider, which likely control the frequency of the generated clock.
     -The module outputs the generated clock signal sclk, along with two complementary clock signals cpol0 and cpol1.
-    -The module maintains a counter (*counter*) that controls the frequency of the generated clock.
+    -The module maintains a counter (counter) that controls the frequency of the generated clock.
     -The clock polarity (cpol0 and cpol1) alternates the clock signal (sclk).
 
 ### Rx_shift_register.v
